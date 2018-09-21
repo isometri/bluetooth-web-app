@@ -338,17 +338,17 @@
             <td id="status_notifications">false</td>
         </tr>
     </table>
-    <h2>Device Discovery and Connection</h2>
+    <h2>Discover and Connect to Device</h2>
     <button id="btn_scan" onclick="discoverDevicesOrDisconnect()">Discover Devices</button>
     <hr>
-    <h2>Reading and Writing</h2>
+    <h2>Read and Write to Device</h2>
     <h3>Read Characteristic - Model Number</h3>
     <button id="btn_read" onclick="readModelNumber()">Read Model Number</button>
     <div id="model_number"></div>
-    <h3>Write Characteristic - Randomise Lights</h3>
+    <h3>Check Writing to Device via Characteristic Change</h3>
     <button id="btn_write" onclick="randomLEDs()">Randomise LEDs</button>
     <hr>
-    <h2>Notifications - Accelerometer X, Y, Z</h2>
+    <h2>Accelerometer (x,y,z) Output</h2>
     <button id="btn_notify" onclick="toggleAccelerometerNotifications()">Toggle Notifications</button>
     <div id="accelerometer_data"></div>
 </body>
